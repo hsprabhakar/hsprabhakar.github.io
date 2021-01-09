@@ -1,0 +1,223 @@
+
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    background:rgb(79, 248, 155);
+}
+
+.header{
+    width: 100%;
+    position:absolute;
+    left:0;
+    top:0;
+    height:80px;
+    background-color: #101010; 
+}
+
+.inner_header {
+    width: 75%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #101010;
+
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px;
+
+}
+
+.logo_container img {
+    width: 38%;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    font-family: 'Raleway', sans-serif;
+
+
+    background: linear-gradient(to right, rgb(128, 128, 209), rgb(89, 220, 235) 50%, rgb(255, 255, 255) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 350ms ease;
+}
+
+.navigation a:hover {
+    background-position: 0 100%;
+}
+
+.navigation a:last-child {
+    padding-right: 0px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: solid;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+
+}
+
+.body {
+	font-family: 'Raleway', sans-serif;
+	background: #ffffff;
+	color: #001f3f;
+}
+
+.h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+}
+
+
+
+
+.proj-experiences {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 140%;
+    padding-left: 60px;
+}
+
+.proj-showcase {
+    display:flex;
+    align-content: stretch;
+    padding-bottom: 4%;
+    padding-top: 2%;
+
+}
+
+.left-side-showcase {
+    width: 70%;
+    text-align: center;
+
+}
+.left-side-showcase img {
+    height: 90%;
+    width: 90%;
+}
+
+.left-side-showcase img:hover {
+    opacity: 0.9;
+}
+
+#stack-underflow-pic img {
+    height: 75%;
+    width: 65%;
+}
+
+#set-solver-pic img {
+    height: 80%;
+    width: 55%
+}
+.right-side-showcase {
+    padding-right: 2%;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    width: 30%;
+    
+
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-30%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 0.5;
+    }
+}
+
+.intro {
+    float:left;
+    width: 50%;
+    padding-top: 0.5%;
+    height: 700px;
+}
+
+.intro h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 250%;
+    color: #000000;
+    padding-top: 220px;
+    padding-left: 60px;
+    
+
+    animation: 0.7s ease-out 0s 1 slideInFromLeft;
+}
+
+
+
+
+#map h3{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 220px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+
+.intro span {
+    color:rgb(228, 60, 37);
+    font-size: 75%;
+}
+
+#Experiences a:hover {
+    color: rgb(20, 118, 118);
+}
+
+#Experiences a:link {
+    color: rgb(54, 214, 59);
+}
+
+.projects-and-experience img {
+    border-radius: 20px;
+}
+
+.projects-and-experience h3 {
+    color: #000000;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.projects-and-experience h4 {
+    font-style: oblique;
+    font-size: 70%;
+}
+
+
+.projects-and-experience ul {
+    line-height: 150%;
+    font-weight: bold;
+    margin-left: 2%;
+    font-size: 70%;
+    padding-bottom: 2%;
+}
